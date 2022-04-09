@@ -1,0 +1,7 @@
+com/josefsg/crud/entity/Producto.class
+com/josefsg/crud/service/ProductoService.class
+com/josefsg/crud/controller/ProductoController.class
+com/josefsg/crud/repository/ProductoRepository.class
+com/josefsg/crud/CrudApplication.class
+com/josefsg/crud/dto/ProductoDto.class
+com/josefsg/crud/dto/Mensaje.class

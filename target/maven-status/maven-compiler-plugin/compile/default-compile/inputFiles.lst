@@ -1,0 +1,7 @@
+/home/josefsg/Escritorio/tfm/backend/src/main/java/com/josefsg/crud/dto/ProductoDto.java
+/home/josefsg/Escritorio/tfm/backend/src/main/java/com/josefsg/crud/CrudApplication.java
+/home/josefsg/Escritorio/tfm/backend/src/main/java/com/josefsg/crud/entity/Producto.java
+/home/josefsg/Escritorio/tfm/backend/src/main/java/com/josefsg/crud/dto/Mensaje.java
+/home/josefsg/Escritorio/tfm/backend/src/main/java/com/josefsg/crud/repository/ProductoRepository.java
+/home/josefsg/Escritorio/tfm/backend/src/main/java/com/josefsg/crud/service/ProductoService.java
+/home/josefsg/Escritorio/tfm/backend/src/main/java/com/josefsg/crud/controller/ProductoController.java
