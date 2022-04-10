@@ -16,9 +16,15 @@ pipeline {
     }
     stage('Build App') {
           steps{
-            sh "mvn package -Dmaven.test.skip"
+            sh "mvn package -Dmaven.test.skip -Dsnyk.skip"
           }
+    }
+
+    stage('Scan') {
+        steps {
+            snykSecurity organisation: 'JoseFranciscoSanchezGutierrez', projectName: 'devSecOpsBackend', severity: 'low', snykInstallation: 'Snyk', snykTokenId: 'snyk', targetFile: 'pom.xml'
         }
+    }
 
     stage('Build image') {
       steps{
@@ -48,7 +54,5 @@ pipeline {
         }
       }
     }
-
   }
-
 }
