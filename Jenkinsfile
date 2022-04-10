@@ -14,6 +14,11 @@ pipeline {
         git 'https://github.com/JoseFranciscoSanchezGutierrez/devSecOpsBackend.git'
       }
     }
+    stage('Build App') {
+          steps{
+            sh "mvn package -Dmaven.test.skip"
+          }
+        }
 
     stage('Build image') {
       steps{
