@@ -14,4 +14,6 @@ public class Mensaje {
     public void setMensaje(String mensaje) {
         this.mensaje = mensaje;
     }
+
+    public void executeMensaje(String mensaje) {this.mensaje = mensaje;}
 }
