@@ -22,7 +22,7 @@ pipeline {
 
     stage('Scan') {
         steps {
-            snykSecurity organisation: 'JoseFranciscoSanchezGutierrez', projectName: 'devSecOpsBackend', severity: 'low', snykInstallation: 'Snyk', snykTokenId: 'snyk', targetFile: 'pom.xml'
+            snykSecurity organisation: 'josefranciscosanchezgutierrez', projectName: 'devSecOpsBackend', severity: 'low', snykInstallation: 'Snyk', snykTokenId: 'snyk', targetFile: 'pom.xml'
         }
     }
 
